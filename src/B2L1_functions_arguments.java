@@ -1,5 +1,5 @@
 public class B2L1_functions_arguments {
-    public static void main(){
+    public static void main(String[] args){
 
         String[] names = {"Erwin", "Kees", "Fred", "Henk", "Richard"};
 

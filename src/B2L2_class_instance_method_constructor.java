@@ -1,5 +1,5 @@
 public class B2L2_class_instance_method_constructor{
-    public static void main(){
+    public static void main(String args){
         //instance aanmaken van Airplane class
         //dat is dus ap1
         //dit noem je ook wel instantieren

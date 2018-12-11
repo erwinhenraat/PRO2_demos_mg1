@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class B2L3_getters_setters {
 
-    public static void main() {
+    public static void main(String[] args) {
         ArrayList<Pancake> pancakes = new ArrayList<Pancake>();
 
         Random rand = new Random();

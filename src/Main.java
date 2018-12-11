@@ -2,7 +2,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        B2L3_getters_setters.main();
+        //hier de class aanroepen die je wil testen.
+
+        B2L4_inheritance.main(args);
 
     }
 }
