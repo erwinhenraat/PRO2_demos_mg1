@@ -3,6 +3,27 @@
 public class B2L4_inheritance {
     public static void main(String[] args){
 
+
+        Student student1 = new Student();
+        student1.setYear(1);
+        student1.setName("Erwin");
+
+
+        Teacher teacher1 = new Teacher();
+        teacher1.setSubject("Programmeren 2");
+
+        System.out.println(teacher1.getSubject());
+
+
+
+/*
+
+        Person p1 = new Person();
+        p1.setName("henkhenkhenkhenkhenkhenkhenk");
+
+
+
+
         Person[] people = {
                 new Teacher(),
                 new Student()
@@ -23,6 +44,6 @@ public class B2L4_inheritance {
             System.out.println(person.getName() + " has an IQ of " + person.getIq() + " and has the following diplomas " + person.getDiplomas());
 
         }
-
+*/
     }
 }
