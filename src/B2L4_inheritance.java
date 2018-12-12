@@ -4,16 +4,17 @@ public class B2L4_inheritance {
     public static void main(String[] args){
 
 
-        Student student1 = new Student();
-        student1.setYear(1);
-        student1.setName("Erwin");
+        Student s1 = new Student();
+        s1.setName("erwin");
 
+        Teacher t1 = new Teacher();
+        t1.setName("Henk");
 
-        Teacher teacher1 = new Teacher();
-        teacher1.setSubject("Programmeren 2");
+        Trainer tr1 = new Trainer();
+        tr1.setName("Frits");
+        tr1.setSubject("Programming");
 
-        System.out.println(teacher1.getSubject());
-
+        System.out.println("\033[1;92m"+"hallo daar " );
 
 
 /*
