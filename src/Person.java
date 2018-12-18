@@ -6,11 +6,16 @@ public class Person {
     private Date birthdate;
     private int iq;
     private ArrayList<String> diplomas;
+
     public Person(){
         diplomas = new ArrayList<String>();
     }
     public void setName(String name){
-        this.name = name;
+        if(name.length() < 100) {
+            this.name = name;
+        }else{
+            System.out.println("je naam is te lang");
+        }
     }
     public String getName() {
         return this.name;

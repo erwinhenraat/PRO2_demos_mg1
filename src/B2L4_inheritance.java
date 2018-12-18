@@ -4,28 +4,23 @@ public class B2L4_inheritance {
     public static void main(String[] args){
 
 
-        Student s1 = new Student();
-        s1.setName("erwin");
-
-        Teacher t1 = new Teacher();
-        t1.setName("Henk");
-
-        Trainer tr1 = new Trainer();
-        tr1.setName("Frits");
-        tr1.setSubject("Programming");
-
-        System.out.println("\033[1;92m"+"hallo daar " );
-
-
-/*
-
         Person p1 = new Person();
-        p1.setName("henkhenkhenkhenkhenkhenkhenk");
+      //  p1.setYear();
+
+        //p1.name = "henk";
+        //System.out.println(p1.name);
+
+        p1.setName("Erwin");
+        System.out.println(p1.getName());
 
 
 
+        Student s1 = new Student();
+        s1.setName("Henk");
 
-        Person[] people = {
+
+
+/*        Person[] people = {
                 new Teacher(),
                 new Student()
 
