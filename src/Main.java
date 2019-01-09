@@ -8,7 +8,7 @@ public class Main {
 
         //B2L4_inheritance.main(args);
 
-        B2L5_Packages_Scope.main(args);
+        B2L6_Callback.B2L6_Callback.main(args);
 
     }
 }
